@@ -17,7 +17,6 @@ nav {
 
 .nav_menu, ul {
     width: 50%;
-
     display: flex;
     align-items: center;
 }
@@ -49,13 +48,11 @@ a {
     display: flex;
     flex-direction: row-reverse;
     height: 653px;
-
     background-color: #1F2039;
 }
 
 .box_portrait, .box_presentation {
     width: 50%;
-
     display: flex;
 }
 
@@ -68,7 +65,6 @@ a {
 
 .center_box_presentation {
     margin: auto;
-
     width: 50%;
 }
 
@@ -101,4 +97,34 @@ em {
     border-radius: 50px;
     text-transform: uppercase;
     font-size: 1rem;
+}
+
+/* TRAVAUX LAYOUT */
+
+.travaux {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: #1F2039;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 50px 0;
+}
+
+.box_pictures {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 90%;
+}
+
+.box_cta_deux {
+    margin: 60px 0;
+    text-align: center;
 }
