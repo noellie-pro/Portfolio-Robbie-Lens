@@ -15,7 +15,7 @@ nav {
     height: 80px;
 }
 
-div, ul {
+.nav_menu, ul {
     width: 50%;
 
     display: flex;
@@ -26,7 +26,7 @@ ul {
     justify-content: space-around;
 }
 
-img {
+#logo {
     padding-left: 40px;
 }
 
@@ -38,5 +38,67 @@ a {
     text-decoration: none;
     color: #242424;
     font-family: "Manrope", sans-serif;
-    font-size: 18px;
+    font-size: 1.1rem;
+}
+
+/* MAIN LAYOUT */
+
+/* PRESENTATION LAYOUT */
+
+.presentation {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 653px;
+
+    background-color: #1F2039;
+}
+
+.box_portrait, .box_presentation {
+    width: 50%;
+
+    display: flex;
+}
+
+.portrait_robbie {
+    margin: auto;
+    padding: 40px;
+    border-bottom: 1px solid #A5B4FC;
+    border-right: 1px solid #A5B4FC;
+}
+
+.center_box_presentation {
+    margin: auto;
+
+    width: 50%;
+}
+
+h1 {
+    color: #A5B4FC;
+    font-weight: 400;
+    font-size: 3.4rem;
+}
+
+p {
+    font-family: "Manrope", sans-serif;
+    font-size: 1.2rem;
+    margin: 20px 0px;
+    color: #F9F8ff;
+
+}
+
+em {
+    color: #A5B4FC;
+}
+
+.box_cta {
+    margin-top: 50px;
+}
+
+.cta {
+    background: linear-gradient(180deg, #8E86B5 0%, #ACAEED 100%);
+    color: #ffffff;
+    padding: 16px 24px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 1rem;
 }
